@@ -1,0 +1,2 @@
+BACKUPDIR C:\CopyTo
+DEBUG false
