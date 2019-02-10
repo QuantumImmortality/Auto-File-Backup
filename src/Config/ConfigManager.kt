@@ -22,6 +22,7 @@ class ConfigManager{
         keyValuePairs.forEach{
             when(it.first) {
                 "BACKUPDIR" -> configurationMap.put("backupDir", it.second)
+                "DEBUG" -> configurationMap.put("debug", it.second.toBoolean())
                 else -> Logger.writeLogMessage("Encountered unexpected key ${it.first}=${it.second}", Logging.LogLevel.WARN)
             }
         }

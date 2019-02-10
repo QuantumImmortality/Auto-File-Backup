@@ -3,8 +3,10 @@ package GetListDirectories
 import Logging.LogLevel
 import Logging.Logger.Companion.writeLogMessage
 import java.io.File
+import java.nio.file.Files
+import java.nio.file.Paths
 
-internal class LoadDirectories {
+internal class DirectoryManager {
 
     private var fileName = "Directories.txt"
     /**
@@ -45,7 +47,18 @@ internal class LoadDirectories {
     fun copyDir(target: String, destination: String): Boolean {
 
         val targetFile = File(target)
-        val destinationDir = File(destination)
+        val destinationDir: File
+
+        if(!targetFile.exists()) {
+            writeLogMessage(targetFile.absolutePath + " does not exist!", LogLevel.WARN)
+            return false
+        }
+
+        val splitTarget: List<String> = target.split("\\")
+        destinationDir = File(destination + "\\" + splitTarget.last())
+
+        if(targetFile.isDirectory)
+            destinationDir.mkdir()
 
         return targetFile.copyRecursively(destinationDir, true)
     }

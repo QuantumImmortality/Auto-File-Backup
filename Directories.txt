@@ -1,2 +1,2 @@
 E:\DirToCopy
-E:\thisFile.txt
+E:\notThisFile.txt
