@@ -35,4 +35,18 @@ internal class LoadDirectories {
 
         return dirs
     }
+
+    /**
+     * Copy the target directory or file to the destination
+     * @param target The target file or dir to copy
+     * @param destination The destination Dir to copy the target to
+     * @return If the copy was successful
+     */
+    fun copyDir(target: String, destination: String): Boolean {
+
+        val targetFile = File(target)
+        val destinationDir = File(destination)
+
+        return targetFile.copyRecursively(destinationDir, true)
+    }
 }
