@@ -47,11 +47,16 @@ internal class DirectoryManager {
     fun copyDir(target: String, destination: String): Boolean {
 
         val targetFile = File(target)
-        val destinationDir: File
 
         if(!targetFile.exists()) {
-            writeLogMessage(targetFile.absolutePath + " does not exist!", LogLevel.WARN)
+            writeLogMessage("$target target does not exist!", LogLevel.WARN)
             return false
+        }
+        var destinationDir = File(destination)
+
+        if(!destinationDir.exists()){
+            writeLogMessage("$destination backup directory does not exist! Making directory", LogLevel.WARN)
+            destinationDir.mkdir()
         }
 
         val splitTarget: List<String> = target.split("\\")

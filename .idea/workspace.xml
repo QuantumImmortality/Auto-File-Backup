@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="614c386e-319e-4a09-81b9-be897632a47c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Directories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Directories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Auto-File-Backup/Config/ConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Auto-File-Backup/Config/ConfigManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Auto-File-Backup/GetListDirectories/LoadDirectories$loadFile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Auto-File-Backup/GetListDirectories/LoadDirectories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Auto-File-Backup/ManagerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Auto-File-Backup/ManagerKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/ConfigManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/ConfigManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/Configuration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/Configuration.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetListDirectories/LoadDirectories.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Manager.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -48,7 +40,19 @@
         <entry file="file://$PROJECT_DIR$/Configuration.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="85">
+                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -65,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="692">
+              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
               <folding>
                 <element signature="e#28#173#0" expanded="true" />
               </folding>
@@ -122,11 +126,12 @@
         <option value="$PROJECT_DIR$/src/Config/LoadConfig.kt" />
         <option value="$PROJECT_DIR$/Directories.txt" />
         <option value="$PROJECT_DIR$/src/GetListDirectories/LoadDirectories.kt" />
-        <option value="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" />
         <option value="$PROJECT_DIR$/src/Config/Configuration.kt" />
         <option value="$PROJECT_DIR$/src/Manager.kt" />
         <option value="$PROJECT_DIR$/src/Config/ConfigManager.kt" />
         <option value="$PROJECT_DIR$/Configuration.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" />
       </list>
     </option>
   </component>
@@ -185,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549803959814" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549804947425" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
@@ -238,12 +243,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549694882278</updated>
       <workItem from="1549694885086" duration="8420000" />
-      <workItem from="1549785458479" duration="9149000" />
+      <workItem from="1549785458479" duration="10096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17569000" />
+    <option name="totallyTimeSpent" value="18516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -311,17 +316,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config/Configuration.kt">
+    <entry file="file://$PROJECT_DIR$/src/Logging/Logger.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="32" />
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -335,16 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#28#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Directories.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -352,10 +340,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logging/Logger.kt">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Config/Configuration.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="27" />
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -365,6 +370,16 @@
           <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="e#0#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="e#28#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
