@@ -1,6 +1,8 @@
 # Auto File Backup
 A simple file backup program that was built in Kotlin. To use this one must specify the target directory to store the
-backups in. Then in a separate folder have the directories and or files to backup listed, detailed below.
+backups in. Then in a separate folder have the directories and or files to backup listed, detailed below. 
+To automate this, you can add it to the *Windows Scheduler* or *cron* for *Linux* and run it as frequently as required.
+
   
 \
 **Backup Directory**  
@@ -21,3 +23,7 @@ E:\path\path\path\DirToCopy
 E:\file.txt
 E:\path\path\path\file.txt
 ```
+
+##TODO
+
+Need to sort out making more usable outside of IntelliJ
