@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="614c386e-319e-4a09-81b9-be897632a47c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,18 +37,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Configuration.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            <state>
+              <caret lean-forward="true" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="153">
+                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -69,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="964">
+              <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
               <folding>
                 <element signature="e#28#173#0" expanded="true" />
               </folding>
@@ -85,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/Directories.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+              <caret selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -130,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/Manager.kt" />
         <option value="$PROJECT_DIR$/src/Config/ConfigManager.kt" />
         <option value="$PROJECT_DIR$/Configuration.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -190,7 +188,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549804947425" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549805430396" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
@@ -243,12 +241,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549694882278</updated>
       <workItem from="1549694885086" duration="8420000" />
-      <workItem from="1549785458479" duration="10096000" />
+      <workItem from="1549785458479" duration="10823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18516000" />
+    <option name="totallyTimeSpent" value="19243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -323,47 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config/ConfigManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
-          <folding>
-            <element signature="e#16#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Directories.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config/Configuration.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Manager.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -374,13 +331,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Config/Configuration.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="964">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
           <folding>
             <element signature="e#28#173#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Directories.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Config/ConfigManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
+          <folding>
+            <element signature="e#16#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
