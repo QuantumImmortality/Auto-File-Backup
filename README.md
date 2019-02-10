@@ -6,7 +6,8 @@ backups in. Then in a separate folder have the directories and or files to backu
 **Backup Directory**  
 
 In the *Configuration.txt* file is the parameter *BACKUPDIR* next to it is the absolute path to the backup directory, 
-e.g. `BACKUPDIR C:\CopyTo` replace this with your own backup directory. Note if the backup directory doesn't exist it will be created.
+e.g.\
+`BACKUPDIR C:\CopyTo` replace this with your own backup directory. Note if the backup directory doesn't exist it will be created.
 
 \
 **Targets To Backup**
