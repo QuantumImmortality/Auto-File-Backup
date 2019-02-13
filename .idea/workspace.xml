@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="614c386e-319e-4a09-81b9-be897632a47c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Directories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Directories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/ConfigManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/ConfigManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/Configuration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/Configuration.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logging/LogLevel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logging/LogLevel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logging/Logger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logging/Logger.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,12 +41,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
+              <first_editor relative-caret-position="544">
+                <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
               </first_editor>
               <second_editor />
             </state>
@@ -101,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Logging/LogLevel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -135,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/Logger/LogLevel.kt" />
         <option value="$PROJECT_DIR$/src/Config/LoadConfig.kt" />
         <option value="$PROJECT_DIR$/src/GetListDirectories/LoadDirectories.kt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Directories.txt" />
         <option value="$PROJECT_DIR$/src/Logging/Logger.kt" />
         <option value="$PROJECT_DIR$/src/GetListDirectories/DirectoryManager.kt" />
@@ -144,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/Manager.kt" />
         <option value="$PROJECT_DIR$/src/Config/Configuration.kt" />
         <option value="$PROJECT_DIR$/src/Logging/LogLevel.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -202,7 +196,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550030822212" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550031622819" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
@@ -257,18 +251,18 @@
       <workItem from="1549694885086" duration="8420000" />
       <workItem from="1549785458479" duration="13525000" />
       <workItem from="1549881083986" duration="1231000" />
-      <workItem from="1550023958323" duration="6858000" />
+      <workItem from="1550023958323" duration="7658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30034000" />
+    <option name="totallyTimeSpent" value="30834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25596184" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25596184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Manager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="130" selection-start-line="34" selection-start-column="130" selection-end-line="34" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Config/Configuration.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -341,16 +328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="96" selection-start-line="3" selection-start-column="96" selection-end-line="3" selection-end-column="96" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -390,8 +367,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Logging/LogLevel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Manager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="130" selection-start-line="34" selection-start-column="130" selection-end-line="34" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="544">
+            <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
