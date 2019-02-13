@@ -1,4 +1,3 @@
 Java.gitignore
 Directories.txt
-.idea/*
-out/*
+.idea
