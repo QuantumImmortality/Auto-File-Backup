@@ -1,2 +1,4 @@
 BACKUPDIR C:\CopyTo
+COMPRESSION false
+
 DEBUG false

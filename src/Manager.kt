@@ -25,3 +25,7 @@ fun main(args : Array<String>){
              dir.copyDir(it, configs.backupDir)
         }
 }
+
+
+//TODO Make into a jar or w/e kotlin's equiv is?
+//TODO Add capacity for compression?

@@ -3,8 +3,6 @@ package GetListDirectories
 import Logging.LogLevel
 import Logging.Logger.Companion.writeLogMessage
 import java.io.File
-import java.nio.file.Files
-import java.nio.file.Paths
 
 internal class DirectoryManager {
 
@@ -66,5 +64,9 @@ internal class DirectoryManager {
             destinationDir.mkdir()
 
         return targetFile.copyRecursively(destinationDir, true)
+    }
+
+    fun zipFile(target: String, destination: String){
+
     }
 }
