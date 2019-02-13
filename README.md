@@ -3,8 +3,7 @@ A simple file backup program that was built in Kotlin. To use this one must spec
 backups in. Then in a separate folder have the directories and or files to backup listed, detailed below. 
 To automate this, you can add it to the *Windows Scheduler* and run it as frequently as required.
 
-  
-\
+
 #### Backup Directory
 In the *Configuration.txt* file is the parameter `BACKUPDIR` next to it is the absolute path to the backup directory, 
 e.g.\
@@ -30,4 +29,4 @@ E:\path\path\path\file.txt
 
 * Need to sort out making more usable outside of IntelliJ (JAR)
 * Logging to file
-* Enable two backups to be kept, overwritting the oldest one only per activations
+* Enable two backups to be kept, overwriting the oldest one only per activations
