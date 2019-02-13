@@ -5,11 +5,13 @@ import java.nio.file.Files
 import java.nio.file.Paths
 import Logging.Logger
 
+/**
+ * Load the systems configurations from file
+ */
 class ConfigManager{
 
     /**
      * Get the configuration values from the config file
-     * @return The configuration values in a Configuration object
      */
     fun loadConfig(): Configuration{
         val lines = Files.readAllLines(Paths.get("Configuration.txt"), StandardCharsets.UTF_8)
@@ -23,6 +25,7 @@ class ConfigManager{
             when(it.first) {
                 "BACKUPDIR" -> configurationMap.put("backupDir", it.second)
                 "DEBUG" -> configurationMap.put("debug", it.second.toBoolean())
+                "COMPRESSION" -> configurationMap.put("compression", it.second.toBoolean())
                 else -> Logger.writeLogMessage("Encountered unexpected key ${it.first}=${it.second}", Logging.LogLevel.WARN)
             }
         }
@@ -31,15 +34,13 @@ class ConfigManager{
     }
 
     /**
-     * Used to determine if a line is a comment or target data
-     * @return If comment
+     * Used to determine if a [line] is a comment or target data
      */
     private fun isComment(line: String) = line.startsWith("#")
 
     /**
-     * Split the values from the variable name, if their is no values after
+     * Split the values from the variable name in the [line], if their is no values after
      * the variable name, it is returned as an empty String
-     * @return
      */
     private fun toKeyValuePair(line: String) = line.split(Regex(" "), 2).let {
         Pair(it[0], if (it.size == 1) "" else it[1])

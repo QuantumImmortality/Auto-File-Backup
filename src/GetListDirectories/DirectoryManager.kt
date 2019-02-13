@@ -5,27 +5,31 @@ import Logging.Logger.Companion.writeLogMessage
 import java.io.File
 import java.nio.file.Files
 import java.nio.file.Paths
+import java.util.zip.ZipEntry
+import java.util.zip.ZipOutputStream
 
-internal class DirectoryManager {
+/**
+ * Manage all things to do with file or directory manipulation
+ */
+class DirectoryManager {
 
     private var fileName = "Directories.txt"
+
     /**
      * If file doesn't exist, create it
      */
     fun createFile(){
-        var file = File(fileName)
+        val file = File(fileName)
         file.createNewFile()
     }
 
     /**
      * Load the file containing the list of directories to backup
-     * separated by new lines
-     * @return List of the directories
+     * separated by new lines. Returns the list of the directories
      */
     fun loadFile(): List<String> {
 
         val dirs: MutableList<String> = mutableListOf()
-
         val file = File(fileName)
 
         if(!file.exists())
@@ -39,12 +43,11 @@ internal class DirectoryManager {
     }
 
     /**
-     * Copy the target directory or file to the destination
-     * @param target The target file or dir to copy
-     * @param destination The destination Dir to copy the target to
-     * @return If the copy was successful
+     * Copy the [target] directory or file to the [destination]. The
+     * copied files will be compressed if [compression] is enabled
+     * and returns if the copy was successful
      */
-    fun copyDir(target: String, destination: String): Boolean {
+    fun copyDir(target: String, destination: String, compression: Boolean): Boolean {
 
         val targetFile = File(target)
 
@@ -59,12 +62,58 @@ internal class DirectoryManager {
             destinationDir.mkdir()
         }
 
+        val isDir = targetFile.isDirectory
         val splitTarget: List<String> = target.split("\\")
-        destinationDir = File(destination + "\\" + splitTarget.last())
+        val success: Boolean
+        val zipDestination: String
 
-        if(targetFile.isDirectory)
-            destinationDir.mkdir()
+        if(compression){
+            zipDestination = when(isDir){
+                true -> destination + "\\" + splitTarget.last() + ".zip"
+                else -> destination + "\\" + splitTarget.last().substring(0, splitTarget.last().indexOf(".")) + ".zip"
+            }
 
-        return targetFile.copyRecursively(destinationDir, true)
+            success = zipFile(target, zipDestination)
+        } else{
+            destinationDir = File(destination + "\\" + splitTarget.last())
+
+            if(isDir)
+                destinationDir.mkdir()
+
+            success = targetFile.copyRecursively(destinationDir, true)
+        }
+
+        return success
+    }
+
+    /**
+     * If compression is set true, then zip the copied
+     * files from the [target] location to the [destination] instead
+     * and returns if the copy was successful
+     */
+    fun zipFile(target: String, destination: String): Boolean {
+        println("T $target D $destination")
+
+        //Remove previous backup
+        File(destination).let { if (it.exists()) it.delete() }
+
+        val zipFile = Files.createFile(Paths.get(destination))
+
+        ZipOutputStream(Files.newOutputStream(zipFile)).use { stream ->
+            val sourceDir = Paths.get(target)
+
+            //Walk through and copy individual files from sub directories
+            Files.walk(sourceDir).filter { path -> !Files.isDirectory(path) }.forEach { path ->
+
+                val zipEntry = ZipEntry(path.toString().substring(sourceDir.toString().length))
+
+                stream.putNextEntry(zipEntry)
+                stream.write(Files.readAllBytes(path))
+                stream.closeEntry()
+            }
+        }
+
+        //Check if the zip exists at target location
+        return File(destination).exists()
     }
 }
