@@ -26,6 +26,7 @@ class ConfigManager{
                 "BACKUPDIR" -> configurationMap.put("backupDir", it.second)
                 "DEBUG" -> configurationMap.put("debug", it.second.toBoolean())
                 "COMPRESSION" -> configurationMap.put("compression", it.second.toBoolean())
+                "LOGTOFILE" -> configurationMap.put("logToFile", it.second.toBoolean())
                 else -> Logger.writeLogMessage("Encountered unexpected key ${it.first}=${it.second}", Logging.LogLevel.WARN)
             }
         }

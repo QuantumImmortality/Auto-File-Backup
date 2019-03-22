@@ -7,4 +7,5 @@ data class Configuration(val config: Map<String, Any?>) {
     val backupDir: String by config
     val debug: Boolean by config
     val compression: Boolean by config
+    val logToFile: Boolean by config
 }

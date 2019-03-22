@@ -27,6 +27,5 @@ E:\path\path\path\file.txt
 
 ## TODO
 
-* Need to sort out making more usable outside of IntelliJ (JAR)
 * Logging to file
 * Enable two backups to be kept, overwriting the oldest one only per activations

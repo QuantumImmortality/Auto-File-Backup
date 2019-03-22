@@ -6,10 +6,12 @@ import Logging.*
 /**
  * Controller class of the application
  */
-fun main(){
 
-    val configManager = ConfigManager()
-    val configs: Configuration = configManager.loadConfig()
+//Load system config
+val configManager = ConfigManager()
+val configs: Configuration = configManager.loadConfig()
+
+fun main(){
 
     val dir = DirectoryManager()
     dir.createFile()
@@ -29,8 +31,6 @@ fun main(){
         }
 }
 
-
-//TODO Make into a jar or w/e kotlin's equiv is?
 //TODO DEBUG To file
 //TODO Overwrite with more functionality, keep last two by default, put into old dir, then push upper level one into old, overwriting the old one, and put fresh in upper dir
 //TODO handle when configs set wrong
